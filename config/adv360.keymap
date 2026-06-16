@@ -24,7 +24,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_LOCK";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LG(LS(SPACE))))>, <&kp LG(LC(Q))>;
+            bindings = <&trans>, <&kp LG(LC(Q))>;
+
+            tapping-term-ms = <250>;
         };
 
         nav_tap: nav_tap {
@@ -34,7 +36,8 @@
 
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <100>;
+            tapping-term-ms = <250>;
+            hold-while-undecided;
         };
     };
 
