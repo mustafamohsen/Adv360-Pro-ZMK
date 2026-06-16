@@ -93,6 +93,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans          &trans          &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans           &trans  &trans
             >;
+
+            label = "Navigation";
         };
     };
 };
