@@ -26,7 +26,7 @@
             #binding-cells = <0>;
             bindings = <&trans>, <&kp LG(LC(Q))>;
 
-            tapping-term-ms = <400>;
+            tapping-term-ms = <200>;
         };
 
         nav_tap: nav_tap {
@@ -47,11 +47,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL          &kp N1     &kp N2  &kp N3         &kp N4         &kp N5  &mo 1                                                                                                                   &mo 3                      &kp N6  &kp N7        &kp N8         &kp N9    &kp N0    &kp MINUS
-&kp TAB            &kp Q      &kp W   &kp E          &kp R          &kp T   &kp RG(LS(NUMBER_4))                                                                                                    &tap_dance_lock            &kp Y   &kp U         &kp I          &kp O     &kp P     &kp BSLH
-&kp ESC            &kp A      &kp S   &kp D          &kp F          &kp G   &nav_tap 4 LG(LS(NUMBER_2))  &kp DOWN_ARROW  &kp UP_ARROW                    &kp LEFT_ARROW            &kp RIGHT_ARROW  &kp LG(LC(LA(LS(SPACE))))  &kp H   &kp J         &kp K          &kp L     &kp SEMI  &kp SQT
-&kp LSHFT          &kp Z      &kp X   &kp C          &kp V          &kp B                                                &kp CAPS                        &kp RIGHT_CONTROL                                                     &kp N   &kp M         &kp COMMA      &kp DOT   &kp FSLH  &kp RSHFT
-&kp RIGHT_CONTROL  &kp GRAVE  &mo 4   &kp RIGHT_ALT  &kp RIGHT_GUI          &kp BSPC                     &kp DEL         &kp LA(LC(LG(LEFT_SHIFT)))      &kp LA(LC(LS(LEFT_GUI)))  &kp ENTER        &kp SPACE                          &kp LEFT_GUI  &kp RIGHT_ALT  &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL         &kp N1     &kp N2  &kp N3         &kp N4         &kp N5  &mo 1                                                                                                                   &mo 3                      &kp N6  &kp N7        &kp N8         &kp N9    &kp N0    &kp MINUS
+&kp TAB           &kp Q      &kp W   &kp E          &kp R          &kp T   &kp RG(LS(NUMBER_4))                                                                                                    &tap_dance_lock            &kp Y   &kp U         &kp I          &kp O     &kp P     &kp BSLH
+&kp ESC           &kp A      &kp S   &kp D          &kp F          &kp G   &nav_tap 4 LG(LS(NUMBER_2))  &kp DOWN_ARROW  &kp UP_ARROW                    &kp LEFT_ARROW            &kp RIGHT_ARROW  &kp LG(LC(LA(LS(SPACE))))  &kp H   &kp J         &kp K          &kp L     &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z      &kp X   &kp C          &kp V          &kp B                                                &kp CAPS                        &kp RIGHT_CONTROL                                                     &kp N   &kp M         &kp COMMA      &kp DOT   &kp FSLH  &kp RSHFT
+&kp LEFT_CONTROL  &kp GRAVE  &mo 4   &kp RIGHT_ALT  &kp RIGHT_GUI          &kp BSPC                     &kp DEL         &kp LA(LC(LG(LEFT_SHIFT)))      &kp LA(LC(LS(LEFT_GUI)))  &kp ENTER        &kp SPACE                          &kp LEFT_GUI  &kp RIGHT_ALT  &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
