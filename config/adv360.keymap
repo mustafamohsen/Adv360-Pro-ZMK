@@ -24,7 +24,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_LOCK";
             #binding-cells = <0>;
-            bindings = <&trans>, <&kp LG(LC(Q))>;
+            bindings = <&kp LC(SPACE)>, <&kp LG(LC(Q))>;
 
             tapping-term-ms = <200>;
         };
@@ -38,6 +38,15 @@
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
             hold-while-undecided;
+        };
+    };
+
+    macros {
+        tmux_bind: tmux_bind {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "TMUX_BIND";
         };
     };
 
