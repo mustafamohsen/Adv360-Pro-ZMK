@@ -84,7 +84,7 @@
 &kp TAB                            &kp Q   &kp W      &kp E          &kp R          &kp T   &screenshot_tap                                                                                                  &tap_dance_lock            &kp Y   &kp U         &kp I          &kp O      &kp P          &kp RIGHT_BRACKET
 &hm LA(LC(LG(LEFT_SHIFT))) ESCAPE  &kp A   &kp S      &kp D          &kp F          &kp G   &nav_tap 4 LC(SPACE)  &kp DOWN_ARROW  &kp UP_ARROW                    &kp LEFT_ARROW            &kp RIGHT_ARROW  &kp LG(LC(LA(LS(SPACE))))  &kp H   &kp J         &kp K          &kp L      &kp SEMI       &kp SQT
 &kp LSHFT                          &kp Z   &kp X      &kp C          &kp V          &kp B                                         &kp CAPS                        &kp RIGHT_CONTROL                                                     &kp N   &kp M         &kp COMMA      &kp DOT    &kp FSLH       &kp RSHFT
-&ctrl_hold RCTRL EQUAL             &mo 5   &kp LCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI          &kp BSPC              &kp DEL         &kp LA(LC(LG(LEFT_SHIFT)))      &kp LA(LC(LS(LEFT_GUI)))  &kp ENTER        &kp SPACE                          &kp LEFT_GUI  &kp RIGHT_ALT  &kp MINUS  &kp BACKSLASH  &mo 2
+&ctrl_hold LCTRL EQUAL             &mo 5   &kp LCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI          &kp BSPC              &kp DEL         &kp LA(LC(LG(LEFT_SHIFT)))      &kp LA(LC(LS(LEFT_GUI)))  &kp ENTER        &kp SPACE                          &kp LEFT_GUI  &kp RIGHT_ALT  &kp MINUS  &kp BACKSLASH  &mo 2
             >;
         };
 
